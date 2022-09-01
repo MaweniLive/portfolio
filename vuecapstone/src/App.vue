@@ -42,10 +42,10 @@
             <router-link class="nav-link mx-2" to="/products">Testimonials</a>
           </li>
           <li class="nav-item">
-          <router-link type="button" class="btn btn-light">Login</router-link>
+          <router-link type="button" class="btn btn-light" to="/login">Login</router-link>
         </li>
          <li class="nav-item">
-          <router-link type="button" class="btn btn-light">Register</router-link>
+          <router-link type="button" class="btn btn-light" to="register">Register</router-link>
         </li>
       </ul>
       </div>
