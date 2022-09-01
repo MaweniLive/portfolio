@@ -8,27 +8,27 @@ const routes = [
     component: HomeView,
   },
   {
-    path: "/about",
+    path: "/products",
     name: "products",
     component: () => import("../views/ProductsView.vue"),
   },
   {
-    path: "/",
+    path: "/product",
     name: "singleproduct",
     component: () => import("../views/SingleView.vue"),
   },
   {
-    path: "/",
+    path: "/login",
     name: "login",
     component: () => import("../views/LoginView.vue"),
   },
   {
-    path: "/",
+    path: "/register",
     name: "register",
     component: () => import("../views/RegisterView.vue"),
   },
   {
-    path: "/",
+    path: "/admin",
     name: "admin",
     component: () => import("../views/AdminView.vue"),
   },

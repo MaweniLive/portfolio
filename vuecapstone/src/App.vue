@@ -29,29 +29,25 @@
       >
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link mx-2 active" aria-current="page" href="#landing"
-              >Home</a
-            >
+            <router-link class="nav-link mx-2 active" aria-current="page" to="/"
+              >Home</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="#about">About</a>
+            <router-link class="nav-link mx-2" to="/about">About</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="#skills">Skills</a>
+            <router-link class="nav-link mx-2" to="/products">Catalogue</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="#testimonials">Testimonials</a>
+            <router-link class="nav-link mx-2" to="/products">Testimonials</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link mx-2" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mx-2" href="#resume">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link mx-2" href="#contact">Contact</a>
-          </li>
-        </ul>
+          <router-link type="button" class="btn btn-light">Login</router-link>
+        </li>
+         <li class="nav-item">
+          <router-link type="button" class="btn btn-light">Register</router-link>
+        </li>
+      </ul>
       </div>
     </div>
   </nav>
