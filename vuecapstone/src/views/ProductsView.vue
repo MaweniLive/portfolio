@@ -35,7 +35,7 @@
 <script>
 export default {};
 </script>
-<style>
+<style scoped>
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans|Playfair+Display:400,400i,700,700i,900,900i");
 
 * {
@@ -43,7 +43,7 @@ export default {};
   border-radius: 5px;
 }
 
-body {
+main {
   margin: 0;
   background-color: #eee;
   background-image: url(https://i.postimg.cc/T1R240BX/christopher-czermak-Pam-FFHL6f-VY-unsplash.jpg);

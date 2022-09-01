@@ -3,15 +3,15 @@
     class="navbar fixed-top navbar-expand-lg navbar-dark py-3 d-flex justify-content-between align-items-center header-transparent scroll-behavior: smooth"
   >
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <router-link class="navbar-brand" to="/">
         <img
           src="https://i.postimg.cc/Kj1NTJbn/Saliwa-removebg-preview.png"
           alt=""
-          width="40"
-          height="40"
+          width="140"
+          height="150"
           class="d-inline-block align-text-top"
         />
-      </a>
+      </router-link>
       <button
         class="navbar-toggler"
         type="button"
@@ -39,9 +39,6 @@
             <router-link class="nav-link mx-2" to="/products">Catalogue</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link mx-2" to="/products">Testimonials</a>
-          </li>
-          <li class="nav-item">
           <router-link type="button" class="btn btn-light" to="/login">Login</router-link>
         </li>
          <li class="nav-item">
@@ -57,6 +54,9 @@
 <style>
 #brand {
   margin-left: 5%;
+}
+.navbar-nav{
+  margin-top: ;
 }
 #Nav-direct {
   margin-left: 20%;
